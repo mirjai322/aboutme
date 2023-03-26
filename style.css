@@ -1,0 +1,305 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #4f4f4f;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#myName{
+  text-align: center;
+  background-color: #b8e4ff;
+  color: black;
+  padding: 30px;
+  font-size: 40px;
+  border-radius: 20px;
+  margin: 20px;
+  margin-top: 20px;
+  border: 5px solid black;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  border-bottom: 2px solid white;
+  transition-duration: 0.3s;
+}
+
+nav{
+  width: 150px;
+  height: 100vh;
+  padding: 100px 20px;
+  background-color: #d3d3f8;
+  position: fixed;
+  right: -190px;
+  top: 0;
+  transition: right 0.3s;
+  border: 5px solid black;
+}
+
+nav.show{
+  right: 0px;
+}
+
+.navItem{
+  margin-bottom: 20px; 
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger{
+  position: fixed;
+  top: 68px;
+  right: 50px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.bun{
+  height: 4px;
+  width: 30px;
+  border-radius: 2px;
+  background-color: black;
+  margin-bottom: 3px;
+}
+
+/*Styling Container1*/
+
+.flexbox-container{
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox-item{
+  min-height: 300px;
+  margin: 20px;
+}
+
+.flexbox-item-1{
+  max-width: 350px;
+  flex-basis: 350px;
+  height: 100%;
+  border: 5px solid black;
+  border-radius: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  object-fit: cover;
+  max-height: 300px;
+}
+
+.flexbox-item-2{
+  max-width: 800px;
+  flex-basis: 800px;
+  border: 5px solid black;
+  border-radius: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #ffd485;
+}
+
+#aboutMeText{
+  max-width: 800px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 22px;
+  flex-shrink: 10;
+}
+
+/*Styling Container 2*/
+
+
+#portfolioPics{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.flexbox-container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2-item{
+  border: 5px solid black;
+  margin: 20px;
+  padding: 10px;
+  padding-top: 0px;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.movies{
+  background-color: #ffffb8;
+}
+
+.shows{
+  background-color: pink;
+}
+
+.music{
+  background-color: #c2ffc2;
+}
+
+/*Styling the contact page*/ 
+
+#contactMeTop{
+  text-align: center;
+  background-color: #b8e4ff;
+  color: black;
+  padding: 30px;
+  font-size: 40px;
+  border-radius: 20px;
+  margin: 20px;
+  margin-top: 20px;
+  border: 5px solid black;
+}
+
+.flexbox-container3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container3-item{
+  border: 5px solid black;
+  margin: 20px;
+  padding: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.email{
+  background-color: #ffffb8;
+}
+
+.insta{
+  background-color: pink;
+}
+
+.discord{
+  background-color: #c2ffc2;
+}
+
+/*Styling the portfolio page*/
+
+#portfolioTitle{
+  text-align: center;
+  background-color: #b8e4ff;
+  color: black;
+  padding: 30px;
+  font-size: 40px;
+  border-radius: 20px;
+  margin: 20px;
+  margin-top: 20px;
+  border: 5px solid black;
+}
+
+#instructions{
+  text-align: center;
+  background-color: #d4d4d4;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  margin-top: 10px;
+  border: 5px solid black;
+}
+
+.projectComp{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+
+.project{
+  border: 5px solid black;
+  margin: 20px;
+  padding: 10px;
+  padding-top: 0px;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: white;
+  display: block;
+  flex: 0 0 calc(33% - 40px);
+  text-align: center;
+  position: relative;
+  top: 100px;
+  transition: top 0.55s, opacity 0.4s;
+  opacity: 0;
+}
+
+.tierList{
+  background-color: #ffd485;
+}
+
+.playlist{
+  background-color: #ffd485;
+}
+
+.IRIA{
+  background-color: #c2ffc2;
+}
+
+.memeify{
+  background-color: pink;
+}
+
+.colorTyper{
+  background-color: #c2ffc2;
+}
+
+.reflexTest{
+  background-color: #c2ffc2;
+}
+
+.cssMaker{
+  background-color: #ffd485;
+}
+
+.top5{
+  background-color: #ffffb8;;
+}
+
+.fakeText{
+  background-color: #ffffb8;;
+}
+
+.cookieClicker{
+  background-color: #ffffb8;;
+}
+
+/*Scroll style*/ 
+
+.project.slide{
+  top: 0;
+  opacity: 1;
+}
+
+footer{
+  text-align: center;
+}
+
+
+
+
+
+
+

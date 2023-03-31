@@ -209,7 +209,7 @@ nav.show{
 
 #instructions{
   text-align: center;
-  background-color: #d4d4d4;
+  background-color: #bababa;
   color: black;
   padding: 10px;
   font-size: 20px;
@@ -236,7 +236,7 @@ nav.show{
   padding-top: 0px;
   justify-content: space-between;
   border-radius: 20px;
-  background-color: white;
+  background-color: #ededed;
   display: block;
   flex: 0 0 calc(33% - 40px);
   text-align: center;
@@ -246,6 +246,7 @@ nav.show{
   opacity: 0;
 }
 
+/*
 .tierList{
   background-color: #ffd485;
 }
@@ -285,6 +286,7 @@ nav.show{
 .cookieClicker{
   background-color: #ffffb8;;
 }
+*/
 
 /*Scroll style*/ 
 

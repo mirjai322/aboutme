@@ -1,1 +1,2 @@
-Link to website: https://personalwebsite.em3jay.repl.co/portfolio.html 
+Link to website: https://personalWebsite.em3jay.repl.co
+This is a website so you can get to know me!
